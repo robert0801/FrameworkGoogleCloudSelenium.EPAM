@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import page.CloudGoogleComPage;
 import page.PageWithSettings;
 
-public class OpenRightPage extends CommonConditions{
+public class OpenRightPageTest extends CommonConditions{
     @Test
     public void getToCloudGoogle(){
         PageWithSettings page = new CloudGoogleComPage(driver)

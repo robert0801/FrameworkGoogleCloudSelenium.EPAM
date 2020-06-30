@@ -3,7 +3,7 @@
 <suite name="All test" verbose="1" >
     <test name="Open Start Page"   >
         <classes>
-            <class name="test.OpenRightPage" />
+            <class name="test.OpenRightPageTest" />
         </classes>
     </test>
 
